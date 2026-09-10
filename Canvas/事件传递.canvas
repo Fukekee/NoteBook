@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"a1409690bf98661d","type":"text","text":"C# 标准的 delegate 事件——点对点的引用关系，只有手里持有这个 PatternCursor 实例引用、并且显式调用 `+=` 订阅过的对象才听得到。","x":580,"y":-340,"width":250,"height":160},
+		{"id":"3947ebe898a717e4","type":"text","text":"特点：强引用/本地、不全局/明确订阅","x":580,"y":-440,"width":250,"height":60},
+		{"id":"54b615210b3e90cf","type":"text","text":"实例事件+显式订阅","x":280,"y":-370,"width":196,"height":60},
+		{"id":"e3fb208cb0e86c08","type":"text","text":"静态事件 / 单例事件","x":580,"y":-150,"width":250,"height":60},
+		{"id":"4fe9abc0b1ca0a44","type":"text","text":"全局广播","x":280,"y":-30,"width":120,"height":60},
+		{"id":"1258f6a587d77ce7","type":"text","text":"EventBus 第三方库","x":580,"y":-60,"width":250,"height":60},
+		{"id":"d20fb3625eed7f7c","type":"text","text":"`Unity SendMessage` / `BroadcastMessage`","x":580,"y":30,"width":250,"height":60},
+		{"id":"ea198309e33ba0b7","type":"text","text":"`Object.FindObjectsByType` 然后调接口","x":580,"y":120,"width":250,"height":60},
+		{"id":"39846de34e87de9e","type":"file","file":"learnRecord/C++/Unity Event.md","x":220,"y":320,"width":400,"height":400},
+		{"id":"cd8a70ed73bf07b5","x":320,"y":220,"width":200,"height":50,"type":"text","text":"C#的event事件传递"}
+	],
+	"edges":[
+		{"id":"df9afb4395c845f8","fromNode":"54b615210b3e90cf","fromSide":"right","toNode":"a1409690bf98661d","toSide":"left"},
+		{"id":"433c5633f1c3bbfc","fromNode":"54b615210b3e90cf","fromSide":"right","toNode":"3947ebe898a717e4","toSide":"left"},
+		{"id":"8ef8397cf220e115","fromNode":"4fe9abc0b1ca0a44","fromSide":"right","toNode":"e3fb208cb0e86c08","toSide":"left"},
+		{"id":"74ed2e64135ce98e","fromNode":"4fe9abc0b1ca0a44","fromSide":"right","toNode":"1258f6a587d77ce7","toSide":"left"},
+		{"id":"d3cecc754c57edcc","fromNode":"4fe9abc0b1ca0a44","fromSide":"right","toNode":"d20fb3625eed7f7c","toSide":"left"},
+		{"id":"e3577f3395e92656","fromNode":"4fe9abc0b1ca0a44","fromSide":"right","toNode":"ea198309e33ba0b7","toSide":"left"},
+		{"id":"9c64e2a71b7f361d","fromNode":"cd8a70ed73bf07b5","fromSide":"bottom","toNode":"39846de34e87de9e","toSide":"top"}
+	]
+}

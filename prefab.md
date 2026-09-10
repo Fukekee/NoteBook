@@ -1,0 +1,2 @@
+When you drag a **Prefab**[](https://docs.unity3d.com/2022.3/Documentation/Manual/Prefabs.html)  
+[](https://docs.unity3d.com/2022.3/Documentation/Manual/Glossary.html#Prefab) into a scene, Unity places them at the cursor position by default. You can preserve any offsets in the Prefab in relation to the cursor position by holding the **Alt** key while dragging a Prefab.

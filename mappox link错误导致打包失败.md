@@ -1,0 +1,1 @@
+这个时候把package中的mapbox包删除就可以了（或者重新导入mapbox package)

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"79400a66dfe394df","type":"file","file":"Unity 的碰撞矩阵规则.md","x":-300,"y":-200,"width":400,"height":360},
+		{"id":"40b72d1fba36e12b","type":"text","text":"联机下遇到的一个问题，如果玩家是由服务器set position的话，那么玩家就是会瞬移，这样的情况下是不会触发场景物品collider上的trigger的，==因为trigger触发要求物理模拟==，要求一个enterTrigger的过程，一个在trigger中的状态是不够的","x":-300,"y":200,"width":250,"height":287},
+		{"id":"10dc43e780730181","type":"file","file":"Unity碰撞事件.md","x":20,"y":240,"width":400,"height":400},
+		{"id":"81775592cf62f97c","x":-115,"y":-414,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[]
+}
