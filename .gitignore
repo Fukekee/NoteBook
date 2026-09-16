@@ -1,0 +1,12 @@
+# Obsidian 界面状态（打开了哪些标签页、面板宽度等），每次开关都会变，不需要版本控制
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 回收站与缓存
+.trash/
+.obsidian/cache
+
+# 系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini

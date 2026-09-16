@@ -8,5 +8,7 @@
   "openBehavior": "daily",
   "showLineNumber": false,
   "showInlineTitle": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Pic",
+  "newLinkFormat": "shortest"
 }
